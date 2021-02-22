@@ -1,21 +1,35 @@
-<!DOCTYPE html>
+<!-- Informar ao navegador qual versão do HTML está sendo utilizada. -->
+<!DOCTYPE html> 
+
+
 <html lang="pt-br">
+
+<!-- As Tags são semânticas, onde cada uma possui uma função e resultado diferentes. -->
+
+    <!-- A Tag "head" é utilizada para informar ao navegador informações sobre o conteúdo da página. -->
     <head>
         <meta charset="UTF-8">
         <title>Barbearia Alura</title>
-        <link rel="stylesheet" href="style.css">
 
+        <!-- A Tag "link" especifica relações entre o documento atual e recursos externos -->
+        <link rel="stylesheet" href="style.css">
     </head>
 
+    <!-- Na Tag "body" fica contido todo o conteúdo que será exibido no site. -->
     <body>
+
+        <!-- A Tag "header" mantém principalmente elementos do cabeçalho. -->
         <header>
             <h1 class="titulo-principal">Barbearia Alura</h1>
         </header>
-        <img id= "banner" src="banner.jpg">
-        <div class="principal">
 
+        <img id= "banner" src="banner.jpg">
+
+        <!-- A Tag "div" é utilizada para dividir o conteúdo em blocos. -->
+        <div class="principal">
             <h2 class="titulo-padrao"> Sobre a Barbearia Alura</h2>
             
+            <!-- A Tag "p" é utilizada para demarcar os paragrafos do site. -->
             <p> Localizada no coração da cidade a <strong> Barbearia Alura </strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
             Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
         
@@ -28,7 +42,10 @@
         <div class="beneficios">
             <h3 class="titulo-padrao">Benefícios</h3>
 
+            <!-- A Tag "ul" é utilizada para listas não ordenadas e "ol" para listas ordenadas, 
+            listas são importantes para listar vários itens no site ou para criar menus de navegação. -->
             <ul>
+                <!-- Cada elemento da lista deve ser marcado com a Tag "li". -->
                 <li class="items">Atendimento aos Clientes</li>
                 <li class="items">Espaço Especializado</li>
                 <li class="items">Localização</li>
